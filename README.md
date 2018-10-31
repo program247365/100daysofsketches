@@ -24,3 +24,4 @@ date: '2018-10-31T02:59:03.408Z'
 ## TODO
 
 - Make posting more seemless!!
+- Make it so homepage shows off the images! (make it a gallery for X recent posts, etc, or page right from there?)
