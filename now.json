@@ -1,3 +1,5 @@
 {
-  "alias": ["100daysofsketch.com"]
+  "alias": ["100daysofsketch.com"],
+  "type": "static",
+  "public": true
 }
