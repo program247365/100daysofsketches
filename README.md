@@ -2,6 +2,16 @@
 
 > Let's see if I can sketch for 100 days...
 
+## Constraints
+
+1. Using only the pencil tool
+2. Only using the color black
+3. No extensive layers use, 2 layers max
+4. No straight line tool, scissors, move tool, or any "assistance" tools used
+5. Erase, undo/redo tools are ok to use
+6. Less than 20 minutes spent on each sketch
+7. No sketch idea can repeat
+
 ## Current Workflow to Post New Sketch
 
 1. Draw in Linea Sketch on iPad, with the pencil tool ANYTHING. Export to dropbox folder \_Sketches.
