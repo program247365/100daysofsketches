@@ -841,12 +841,12 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0":
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
-  integrity sha512-Y3SCjmhSupzFB6wcv1KmmFucH6gDVnI30WjOcicV10ju0cZjak3Jcs67YLIXBrmZYw1xCrVeJPbycFwrqNyxpg==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.3":
+  version "7.11.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.0.tgz#f10245877042a815e07f7e693faff0ae9d3a2aac"
+  integrity sha512-qArkXsjJq7H+T86WrIFV0Fnu/tNOkZ4cgXmjkzAu3b/58D5mFIO8JH/y77t7C9q0OdDRdh9s7Ue5GasYssxtXw==
   dependencies:
-    regenerator-runtime "^0.12.0"
+    regenerator-runtime "^0.13.4"
 
 "@babel/template@^7.1.0", "@babel/template@^7.1.2":
   version "7.1.2"
@@ -2452,13 +2452,13 @@ charenc@~0.0.1:
   resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
   integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
 
-cheerio@^1.0.0-rc.2:
-  version "1.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.2.tgz#4b9f53a81b27e4d5dac31c0ffd0cfa03cc6830db"
-  integrity sha1-S59TqBsn5NXawxwP/Qz6A8xoMNs=
+cheerio@^1.0.0-rc.2, cheerio@^1.0.0-rc.3:
+  version "1.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.3.tgz#094636d425b2e9c0f4eb91a46c05630c9a1a8bf6"
+  integrity sha512-0td5ijfUPuubwLUu0OBoe98gZj8C/AA+RW3v67GPlGOrvxWjZmBXiBCRU+I8VEiNyJzjth40POfHiz2RB3gImA==
   dependencies:
     css-select "~1.2.0"
-    dom-serializer "~0.1.0"
+    dom-serializer "~0.1.1"
     entities "~1.1.1"
     htmlparser2 "^3.9.1"
     lodash "^4.15.0"
@@ -2741,7 +2741,7 @@ commander@~2.8.1:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-common-tags@^1.4.0:
+common-tags@^1.4.0, common-tags@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
   integrity sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==
@@ -3730,13 +3730,21 @@ dom-helpers@^3.2.1:
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
   integrity sha512-2Sm+JaYn74OiTM2wHvxJOo3roiq/h25Yi69Fqk269cNUwIXsCvATB6CRSFC9Am/20G2b28hGv/+7NiWydIrPvg==
 
-dom-serializer@0, dom-serializer@~0.1.0:
+dom-serializer@0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
   integrity sha1-BzxpdUbOB4DOI75KKOKT5AvDDII=
   dependencies:
     domelementtype "~1.1.1"
     entities "~1.1.1"
+
+dom-serializer@~0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.1.tgz#1ec4059e284babed36eec2941d4a970a189ce7c0"
+  integrity sha512-l0IU0pPzLWSHBcieZbpOKgkIn3ts3vAh7ZuFyXNwJxJXk/c4Gwj9xaTJwIDVQCXawWD0qb3IzMGH5rglQaO0XA==
+  dependencies:
+    domelementtype "^1.3.0"
+    entities "^1.1.1"
 
 dom-walk@^0.1.0:
   version "0.1.1"
@@ -5241,16 +5249,16 @@ gatsby-remark-prismjs@^3.2.0:
     parse-numeric-range "^0.0.2"
     unist-util-visit "^1.3.0"
 
-gatsby-remark-responsive-iframe@^2.0.8:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-2.1.1.tgz#75517b561073a382388bcb13b0d96566ce1ef0a7"
-  integrity sha512-n6xCm4/E/AjqIxvLdbV4tN3RYbR2Sg9Fmpn2/u95D4GpACFWuKHaW9TkMpQEQ8d5WNNBkGP9NKTb055BjIwClw==
+gatsby-remark-responsive-iframe@^2.4.12:
+  version "2.4.12"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-2.4.12.tgz#6248f20fb0cd7f3952d47ab0f99dc2e2b2d3c027"
+  integrity sha512-yvSSz0dVi2B6vSwY8tgh4nlzj7Urah5XVuAdGhXw8uVzqxS8qVD7CPHK05UyAJYPcqi+fOiYJxybzbbMJfjL6Q==
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    bluebird "^3.5.0"
-    cheerio "^1.0.0-rc.2"
-    lodash "^4.17.10"
-    unist-util-visit "^1.3.0"
+    "@babel/runtime" "^7.10.3"
+    cheerio "^1.0.0-rc.3"
+    common-tags "^1.8.0"
+    lodash "^4.17.15"
+    unist-util-visit "^1.4.1"
 
 gatsby-remark-smartypants@^2.0.7:
   version "2.0.9"
@@ -7437,10 +7445,10 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+lodash@^4.11.1, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 logalot@^2.0.0, logalot@^2.1.0:
   version "2.1.0"
@@ -9924,10 +9932,10 @@ regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
-regenerator-runtime@^0.12.0:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
-  integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.13.4:
   version "0.13.4"
@@ -11872,10 +11880,10 @@ unist-util-visit-parents@^2.0.0, unist-util-visit-parents@^2.0.1:
   dependencies:
     unist-util-is "^2.1.2"
 
-unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.3.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.0.tgz#1cb763647186dc26f5e1df5db6bd1e48b3cc2fb1"
-  integrity sha512-FiGu34ziNsZA3ZUteZxSFaczIjGmksfSgdKqBfOejrrfzyUy5b7YrlzT1Bcvi+djkYDituJDy2XB7tGTeBieKw==
+unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.3.0, unist-util-visit@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.1.tgz#4724aaa8486e6ee6e26d7ff3c8685960d560b1e3"
+  integrity sha512-AvGNk7Bb//EmJZyhtRUnNMEpId/AZ5Ph/KUpTI09WHQuDZHKovQ1oEv3mfmKpWKtoMzyMC4GLBm1Zy5k12fjIw==
   dependencies:
     unist-util-visit-parents "^2.0.0"
 
